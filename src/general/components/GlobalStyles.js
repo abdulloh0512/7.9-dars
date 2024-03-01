@@ -68,6 +68,10 @@ ul {
 html, body, :root {
     height: 100vh;
 }
+
+button {
+  cursor: pointer;
+}
 `;
 
 export default GlobalStyles;
