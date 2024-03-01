@@ -73,13 +73,16 @@ const StyledBtnn = styled.button`
 const Category = () => {
   return (
     <>
+    {/* global style */}
       <StyledContainer>
         <StyledDiv>
+          {/* icon button negadr ishlamadi */}
           <StyledBtn onClick={"/"}>
             <StyledBack width={17} src="/images/icon-back.svg" alt="" />
           </StyledBtn>
           <StyledH3>Pick a Category</StyledH3>
         </StyledDiv>
+        {/* gameg yonaltirilgan bu ham ishlamadi */}
         <StyledBtnn onClick={"/game"}>Countries</StyledBtnn>
       </StyledContainer>
     </>

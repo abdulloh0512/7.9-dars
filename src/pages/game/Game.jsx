@@ -77,9 +77,11 @@ const StyledContent = styled.div`
 const Game = () => {
   return (
     <>
+    {/* Container style */}
       <StyledContainer>
         <StyledDiv>
           <StyledBtn>
+            {/* icon  */}
             <StyledBack width={17} src="/images/icon-menu.svg" alt="" />
           </StyledBtn>
           <StyledH1>Countries</StyledH1>
@@ -87,10 +89,13 @@ const Game = () => {
             <StyledSpan>
               <span></span>
             </StyledSpan>
+            {/* heart img */}
             <img src="/images/icon-heart.svg" alt="" />
           </StyledContent>
         </StyledDiv>
+        {/* Letters olib kelingan */}
         <Letters />
+        {/* keyboard olib kelingan */}
         <Keyboard />
       </StyledContainer>
     </>
